@@ -7,6 +7,8 @@ SRC_DIR      = 'src'
 PROB_DIR     = 'koans'
 DOWNLOAD_DIR = 'download'
 
+#adding a note to rakefile
+
 SRC_FILES = FileList["#{SRC_DIR}/*"]
 KOAN_FILES = SRC_FILES.pathmap("#{PROB_DIR}/%f")
 
